@@ -1,7 +1,5 @@
 ## python code :
 
-```
-
 import csv
 import json
 
@@ -66,4 +64,3 @@ report = ReportGenerator()
 report.generate_summary(employees)
 report.save_output(employees)
 
-```
