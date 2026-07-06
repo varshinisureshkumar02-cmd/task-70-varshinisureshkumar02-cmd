@@ -24,7 +24,8 @@ class FileHandler:
   def read_csv(self, filename):
     try:
       with open(filename, "r") as f:
-      return list(csv.DictReader(f)) 
+      return 
+list(csv.DictReader(f)) 
     except Exception as e:
       print(e)
       return[]
